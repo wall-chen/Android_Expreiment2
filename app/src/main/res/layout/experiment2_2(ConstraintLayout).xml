@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="10mm"
+            android:height="10mm"
+            android:background="@android:color/holo_red_dark"
+            android:text="RED" />
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:width="16mm"
+            android:height="10mm"
+            android:background="@android:color/holo_orange_dark"
+            android:text="ORANGE"/>
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:width="15mm"
+            android:height="10mm"
+            android:background="#FFFF00"
+            android:text="YELLOW"/>
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12mm"
+            android:width="10mm"
+            android:height="10mm"
+            android:background="@android:color/holo_blue_dark"
+            android:text="BLUE"/>
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="10mm"
+            android:height="10mm"
+            android:layout_marginTop="12mm"
+            android:layout_toLeftOf="@id/btn_4"
+            android:layout_marginRight="2mm"
+            android:background="@android:color/holo_green_dark"
+            android:text="GREEN"/>
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="10mm"
+            android:height="10mm"
+            android:layout_marginTop="12mm"
+            android:layout_toRightOf="@id/btn_4"
+            android:layout_marginLeft="2mm"
+            android:background="@android:color/holo_purple"
+            android:text="INDIGO"/>
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100in"
+            android:height="10mm"
+            android:layout_marginTop="24mm"
+            android:background="#FF99cc"
+            android:text="VIOLET"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
